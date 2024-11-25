@@ -58,7 +58,7 @@
     "jquery.caret": "^0.3.1",
     "js-cookie": "^2.2.1",
     "magnific-popup": "^1.1.0",
-    "marked": "~1.2.7",
+    "marked": "~4.0.10",
     "mobx": "^5.15.1",
     "moment": "^2.29.1",
     "mousetrap": "^1.6.5",
