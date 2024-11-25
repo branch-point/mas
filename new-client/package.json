@@ -39,7 +39,7 @@
     "react-window": "^1.8.6",
     "remirror": "^1.0.58",
     "socket.io-client": "^4.4.1",
-    "urijs": "^1.19.7",
+    "urijs": "^1.19.11",
     "use-resize-observer": "^8.0.0"
   },
   "devDependencies": {
