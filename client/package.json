@@ -60,7 +60,7 @@
     "magnific-popup": "^1.1.0",
     "marked": "~1.2.7",
     "mobx": "^5.15.1",
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "mousetrap": "^1.6.5",
     "perfect-scrollbar": "1.5.0",
     "prop-types": "^15.7.2",
