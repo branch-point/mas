@@ -4,7 +4,7 @@ _NOTE:_ This hobby project is archived. Can't be recommended for any kind of gen
 
 MAS is a web group chat application with a windowed UI.
 
-For more info:
+Some more info:
 
 - [Architecture page](https://github.com/ilkkao/mas/wiki)
 - [MAS client API](https://github.com/ilkkao/mas/blob/master/doc/MAS-client-API.md)
