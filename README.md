@@ -11,7 +11,7 @@ For more info:
 
 ## Main features
 
-- Next generation windowed UI
+- Windowed UI
 - Messages can include mentions, links, emojis, markdown, images, and youtube videos
 - Opt-in email alerts of missed messages
 - Infinite scrolling to see older messages
@@ -21,14 +21,9 @@ For more info:
 - IRC connections are kept active also when the user is not logged in
 - Separate mobile mode
 
-## Status
-
-TBD
-
 ## Dependencies
 
 - Node.js: http://nodejs.org/
-- Yarn: https://yarnpkg.com/
 - Redis: http://redis.io/
 - Elasticsearch: https://www.elastic.co/products/elasticsearch/ (optional)
 
@@ -70,9 +65,3 @@ $ docker-compose up -d
 When everything is running, navigate to `http://localhost/`. MAS frontend server is listening on port 80 on all interfaces.
 
 Docker compose will create three data volumes. One of the is for the frontend server. Frontend server needs it to store uploaded files. Also if HTTPS is enabled, one option is to place the certs to this volume. In that case it's simplest to use a volume that is mounted from the host.
-
-## Feedback
-
-iao@iki.fi
-
-[chat.iao.fi]: http://chat.iao.fi/
