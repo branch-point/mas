@@ -853,7 +853,7 @@ Contains `errorMsg` property if the status is not `OK`
   "id": "UPDATE_PROFILE",
 
   "name": "Ilkka Oksanen",
-  "email": "ilkka@meetandspeak.com"
+  "email": "iao@iki.fi"
 }
 ```
 

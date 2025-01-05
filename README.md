@@ -75,4 +75,4 @@ Docker compose will create three data volumes. One of the is for the frontend se
 
 iao@iki.fi
 
-[meetandspeak.com]: http://meetandspeak.com/
+[chat.iao.fi]: http://chat.iao.fi/
