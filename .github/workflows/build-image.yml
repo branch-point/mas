@@ -26,9 +26,9 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/mas-chat/${{ github.repository }}:latest
+          tags: ghcr.io/branch-point/${{ github.repository }}:latest
           build-args: |
             REVISION=${{ github.sha }}
 
       - name: Trigger a chat.iao.fi deployment (private)
-        run: 'curl -XPOST -u ''ilkkao:${{ secrets.ILKKA_PAT_FOR_PUBLISH }}'' -H ''Accept: application/vnd.github.v3+json'' -H ''Content-Type: application/json'' https://api.github.com/repos/mas-chat/meetandspeak-deploy/actions/workflows/4499707/dispatches -d ''{"ref":"master", "inputs": {"deploy-digest":"${{ steps.docker_build.outputs.digest }}"}}'''
+        run: 'curl -XPOST -u ''ilkkao:${{ secrets.ILKKA_PAT_FOR_PUBLISH }}'' -H ''Accept: application/vnd.github.v3+json'' -H ''Content-Type: application/json'' https://api.github.com/repos/branch-point/meetandspeak-deploy/actions/workflows/4499707/dispatches -d ''{"ref":"master", "inputs": {"deploy-digest":"${{ steps.docker_build.outputs.digest }}"}}'''
