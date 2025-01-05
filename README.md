@@ -1,8 +1,8 @@
 # MAS server and web app
 
-MAS is a web group chat application with a sleek windowed UI.
+_NOTE:_ This hobby project is archived. Can't be recommended for any kind of general use.
 
-_NOTE:_ The project is archived. Can't be recommended for any kind of general use.
+MAS is a web group chat application with a sleek windowed UI.
 
 For more info:
 
