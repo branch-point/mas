@@ -2,7 +2,7 @@
 
 _NOTE:_ This hobby project is archived. Can't be recommended for any kind of general use.
 
-MAS is a web group chat application with a sleek windowed UI.
+MAS is a web group chat application with a windowed UI.
 
 For more info:
 
