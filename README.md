@@ -64,4 +64,4 @@ $ docker-compose up -d
 
 When everything is running, navigate to `http://localhost/`. MAS frontend server is listening on port 80 on all interfaces.
 
-Docker compose will create three data volumes. One of them is for the frontend server. Frontend server needs it to store uploaded files. Also if HTTPS is enabled, one option is to place the certs to this volume. In that case it's simplest to use a volume that is mounted from the host.
+Docker compose will create three data volumes. One of them is for the frontend server. Frontend server needs it to store the uploaded files. Also if HTTPS is enabled, one option is to place the certs to this volume. In that case it's simplest to use a volume that is mounted from the host.
